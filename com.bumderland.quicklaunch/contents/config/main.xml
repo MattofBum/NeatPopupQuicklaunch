@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="quicklaunchFolder" type="String">
+      <default></default>
+    </entry>
+
+    <entry name="filesFilter" type="String">
+      <default>*.desktop</default>
+    </entry>
+
+    <entry name="foldersLast" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <entry name="minMenuWidth" type="Int">
+      <default>110</default>
+    </entry>
+
+    <entry name="iconType" type="Int">
+      <default>0</default>
+    </entry>
+
+    <entry name="slimIcon" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="scrollSpeed" type="Int">
+      <default>20</default>
+    </entry>
+
+    <entry name="scrollTime" type="Int">
+      <default>50</default>
+    </entry>
+
+    <entry name="useGenericIcons" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <entry name="useIconCache" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="iconLineCacheSize" type="Int">
+      <default>200</default>
+    </entry>
+
+    <entry name="itemDefaultColor" type="String">
+      <default>#000000</default>
+    </entry>
+
+    <entry name="itemHighlightedColor" type="String">
+      <default>#000000</default>
+    </entry>
+
+    <entry name="useThemeDefaultColor" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="useThemeHighlightColor" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- Background & chrome -->
+    <entry name="menuBackgroundColor" type="String">
+      <default>#F2F2F2</default>
+    </entry>
+
+    <entry name="menuBorderColor" type="String">
+      <default>#D4D4D4</default>
+    </entry>
+
+    <entry name="itemHoverColor" type="String">
+      <default>#E5F3FF</default>
+    </entry>
+
+    <entry name="useThemeBackgroundColor" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="useThemeBorderColor" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="useThemeHoverColor" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="genericFileIcon" type="String">
+      <default>application-x-executable</default>
+    </entry>
+
+    <entry name="genericFolderIcon" type="String">
+      <default>folder-open</default>
+    </entry>
+  </group>
+</kcfg>

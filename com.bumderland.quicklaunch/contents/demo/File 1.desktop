@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Demo Application
+Comment=Just a preview entry
+Exec=kdialog --msgbox "This would open an application."
+Icon=application-x-executable
+Type=Application

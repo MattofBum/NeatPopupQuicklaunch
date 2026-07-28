@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "piotr4@gmail.com",
+                "Name": "Piotr"
+            },
+            {
+                "Email": "bookbaghead@hotmail.com",
+                "Name": "Matt Galanto"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "Windows-like quicklaunch. A fork of Cool Popup Quicklaunch by Piotr",
+        "Icon": "org.kde.plasma.quicklaunch",
+        "Id": "com.bumderland.quicklaunch",
+        "License": "GPL-3.0+",
+        "Name": "Neat Popup Quicklaunch",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
