@@ -19,6 +19,6 @@ I did intentionally change at least one thing: the quicklaunch always pulls the 
 
 #### From source
 ```bash
-git clone https://github.com/MattofBum/NeatPopupQuicklaunch
+git clone https://github.com/MattofBum/NeatPopupQuicklaunch.git
 cd NeatPopupQuicklaunch
 kpackagetool6 -t Plasma/Applet -i com.bumderland.quicklaunch
